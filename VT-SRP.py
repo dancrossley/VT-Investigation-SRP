@@ -17,9 +17,6 @@ Actions Taken:
     - Elevate case status to 'Incident'
  - If there are less than THRESHOLD VT detections:
     - Close Alarm (TO BE IMPLEMENTED)
- 
- To Do:
-  - Error checking
 
 """
 
