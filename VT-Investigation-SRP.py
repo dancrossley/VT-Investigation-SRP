@@ -175,11 +175,11 @@ def add_alarm(caseid, alarmid):
     requests.request("POST", url, data=payload, headers=HEADERS, verify=False)
 
 def add_case_note(caseid, note):
-    """Adds an alarm to a case.
+    """Adds an note to a case.
 
     Args:
         caseid: ID of the case to add the alarm to.
-        alarmid: The alarm ID to add to the case.
+        note: The note to add to the case.
 
     """
     url = "https://" + LR_URL + ":8501/lr-case-api/cases/" + caseid + "/evidence/note/"
