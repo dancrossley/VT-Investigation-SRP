@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remv1:Remediation-Plugin xmlns:remv1="RemediationVersion1.xsd" Name="VirusTotal Lookup">
+<remv1:Action Name="VirusTotal Lookup" Command="C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe">
+<remv1:ConstantParameter Name="Script" Switch="VT-SRP.py" Order="1" />
+<remv1:StringParameter Name="File Hash" Switch="-h " Order="2" />
+<remv1:StringParameter Name="Alarm Id" Switch="" Order="3" />
+</remv1:Action>
+</remv1:Remediation-Plugin>
