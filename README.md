@@ -1,2 +1,2 @@
 # VT-SRP
-VirusTotal SmartResponse for LogRhythm (in Python)
+VirusTotal Automated Investigation for LogRhythm
